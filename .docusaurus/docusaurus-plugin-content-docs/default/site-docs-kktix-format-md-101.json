@@ -1,0 +1,29 @@
+{
+  "id": "kktix-format",
+  "title": "kktix.csv",
+  "description": "kktix.csv 是 ShowSniper 搶票系統的主要任務清單檔案。",
+  "source": "@site/docs/kktix-format.md",
+  "sourceDirName": ".",
+  "slug": "/kktix-format",
+  "permalink": "/ShowSniper-docs/docs/kktix-format",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/kktix-format.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "id": "kktix-format",
+    "title": "kktix.csv",
+    "sidebar_position": 5
+  },
+  "sidebar": "sidebar",
+  "previous": {
+    "title": "task.csv",
+    "permalink": "/ShowSniper-docs/docs/task-format"
+  },
+  "next": {
+    "title": "Proxy 設定",
+    "permalink": "/ShowSniper-docs/docs/proxy"
+  }
+}

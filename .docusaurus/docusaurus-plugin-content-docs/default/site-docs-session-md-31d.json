@@ -1,0 +1,29 @@
+{
+  "id": "session",
+  "title": "session.json 使用說明",
+  "description": "session.json 是用來儲存帳號登入後的 Cookie 資訊，讓使用者下次執行程式時免除重複登入流程。",
+  "source": "@site/docs/session.md",
+  "sourceDirName": ".",
+  "slug": "/session",
+  "permalink": "/ShowSniper-docs/docs/session",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/session.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "id": "session",
+    "title": "session.json 使用說明",
+    "sidebar_position": 7
+  },
+  "sidebar": "sidebar",
+  "previous": {
+    "title": "Proxy 設定",
+    "permalink": "/ShowSniper-docs/docs/proxy"
+  },
+  "next": {
+    "title": "Discord Webhook 設定教學",
+    "permalink": "/ShowSniper-docs/docs/discord-webhook-url"
+  }
+}
