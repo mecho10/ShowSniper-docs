@@ -17,7 +17,8 @@ ShowSniper 提供靈活的配置方式，讓使用者可以依需求調整搶票
 ```json
 {
   "license_key": "你的授權金鑰",
-  "discord_id": "你的discord使用者id"
+  "discord_id": "你的discord使用者id",
+  "capsolver_api_key": "CAP-XXXXXXXXXXXXXXXXXXXX"
 }
 ```
 
@@ -39,10 +40,29 @@ ShowSniper 提供靈活的配置方式，讓使用者可以依需求調整搶票
 
 4. 回到聊天室，右鍵點選您的大頭貼 → 點選 **複製使用者 ID**  
 5. 貼上該 ID 到 `config.json` 中的 `"discord_id"` 欄位
-
 ---
 
 ✅ ID 會是類似這樣的格式：
 
 ```json
 "discord_id": "123456789012345678"
+:::
+
+:::info Capsolver 是什麼？
+
+Capsolver 是一個自動解 reCAPTCHA v2 的服務，支援 ShowSniper 的 KKTIX normal mode 搶票流程。
+:::
+註冊教學：
+1.前往官網註冊：https://dashboard.capsolver.com/passport/register?inviteCode=OlTJuZJbF-CT
+
+2.登入後即可在首頁看到您的 API Key
+
+3.複製並貼入 config.json 中的 "capsolver_api_key" 欄位
+
+![開發者模式位置](/img/capsolver.png)
+
+
+:::tip 重要提醒
+要先儲值才能使用解碼服務
+請妥善保管API 金鑰
+:::

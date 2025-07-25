@@ -37,3 +37,4 @@ sidebar_position: 2
 ├── session.json               # 已登入的帳號 Cookie
 ├── chromedriver-mac-x64       # Intel 架構用 ChromeDriver
 ├── chromedriver-mac-arm64     # M1/M2 架構用 ChromeDriver
+├── run_showsniper.command     # 程式啟動器
